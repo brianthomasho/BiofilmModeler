@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		5E73A6B021D885F300DCE051 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E73A6AF21D885F300DCE051 /* main.c */; };
+		5E73A6C121D8864100DCE051 /* ArgumentHandler.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E73A6BA21D8864000DCE051 /* ArgumentHandler.c */; };
+		5E73A6C221D8864100DCE051 /* InitializeMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E73A6BD21D8864000DCE051 /* InitializeMatrix.c */; };
+		5E73A6C321D8864100DCE051 /* ComputeMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E73A6BE21D8864000DCE051 /* ComputeMatrix.c */; };
+		5E73A6C421D8864100DCE051 /* PrintMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E73A6BF21D8864100DCE051 /* PrintMatrix.c */; };
+		5E73A6C521D8864100DCE051 /* ErrorHandler.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E73A6C021D8864100DCE051 /* ErrorHandler.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,17 @@
 /* Begin PBXFileReference section */
 		5E73A6AC21D885F300DCE051 /* BiofilmModeler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BiofilmModeler; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E73A6AF21D885F300DCE051 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5E73A6B621D8863F00DCE051 /* ErrorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorHandler.h; sourceTree = "<group>"; };
+		5E73A6B721D8863F00DCE051 /* ArgumentHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArgumentHandler.h; sourceTree = "<group>"; };
+		5E73A6B821D8864000DCE051 /* ComputeMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputeMatrix.h; sourceTree = "<group>"; };
+		5E73A6B921D8864000DCE051 /* BiofilmModeler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiofilmModeler.h; sourceTree = "<group>"; };
+		5E73A6BA21D8864000DCE051 /* ArgumentHandler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ArgumentHandler.c; sourceTree = "<group>"; };
+		5E73A6BB21D8864000DCE051 /* InitializeMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitializeMatrix.h; sourceTree = "<group>"; };
+		5E73A6BC21D8864000DCE051 /* PrintMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintMatrix.h; sourceTree = "<group>"; };
+		5E73A6BD21D8864000DCE051 /* InitializeMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = InitializeMatrix.c; sourceTree = "<group>"; };
+		5E73A6BE21D8864000DCE051 /* ComputeMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ComputeMatrix.c; sourceTree = "<group>"; };
+		5E73A6BF21D8864100DCE051 /* PrintMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PrintMatrix.c; sourceTree = "<group>"; };
+		5E73A6C021D8864100DCE051 /* ErrorHandler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ErrorHandler.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +73,17 @@
 		5E73A6AE21D885F300DCE051 /* BiofilmModeler */ = {
 			isa = PBXGroup;
 			children = (
+				5E73A6BA21D8864000DCE051 /* ArgumentHandler.c */,
+				5E73A6B721D8863F00DCE051 /* ArgumentHandler.h */,
+				5E73A6B921D8864000DCE051 /* BiofilmModeler.h */,
+				5E73A6BE21D8864000DCE051 /* ComputeMatrix.c */,
+				5E73A6B821D8864000DCE051 /* ComputeMatrix.h */,
+				5E73A6C021D8864100DCE051 /* ErrorHandler.c */,
+				5E73A6B621D8863F00DCE051 /* ErrorHandler.h */,
+				5E73A6BD21D8864000DCE051 /* InitializeMatrix.c */,
+				5E73A6BB21D8864000DCE051 /* InitializeMatrix.h */,
+				5E73A6BF21D8864100DCE051 /* PrintMatrix.c */,
+				5E73A6BC21D8864000DCE051 /* PrintMatrix.h */,
 				5E73A6AF21D885F300DCE051 /* main.c */,
 			);
 			path = BiofilmModeler;
@@ -119,6 +146,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E73A6B021D885F300DCE051 /* main.c in Sources */,
+				5E73A6C521D8864100DCE051 /* ErrorHandler.c in Sources */,
+				5E73A6C221D8864100DCE051 /* InitializeMatrix.c in Sources */,
+				5E73A6C421D8864100DCE051 /* PrintMatrix.c in Sources */,
+				5E73A6C321D8864100DCE051 /* ComputeMatrix.c in Sources */,
+				5E73A6C121D8864100DCE051 /* ArgumentHandler.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
