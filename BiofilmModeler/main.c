@@ -6,7 +6,6 @@
 //  Copyright © 2018 Brian Thomas Ho. All rights reserved.
 //
 
-
 #include <stdio.h>     // input/outputs
 #include <time.h>      // for seeding RNG
 #include <stdlib.h>    // memory management
